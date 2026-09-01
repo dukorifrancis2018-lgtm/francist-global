@@ -1,0 +1,249 @@
+/* GENERAL */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(5, 15, 35, 0.88),
+            rgba(5, 15, 35, 0.92)
+        );
+
+    background-color: #071b3a;
+
+    padding-top: 70px;
+}
+
+.hero h1 {
+    line-height: 1.2;
+}
+
+.hero p {
+    max-width: 700px;
+}
+
+
+/* SERVICES */
+
+.service-icon {
+    font-size: 45px;
+    color: #0d6efd;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 15px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+/* BUTTONS */
+
+.btn {
+    border-radius: 8px;
+}
+
+
+/* CONTACT */
+
+#contact form {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.form-control {
+    padding: 13px;
+
+    border-radius: 8px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #050f23 !important;
+  font-size: 10px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .hero {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+}
+/* PRODUCT PLACEHOLDER */
+
+.product-placeholder {
+    height: 200px;
+
+    background: linear-gradient(
+        135deg,
+        #071b3a,
+        #0d6efd
+    );
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-placeholder i {
+    font-size: 65px;
+}
+/* PRODUCTS PAGE */
+
+.products-header {
+    background: #071b3a;
+    padding: 120px 20px 70px;
+}
+
+.product-card-new {
+    overflow: hidden;
+    border: none;
+    border-radius: 15px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.product-card-new:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.product-photo {
+    height: 220px;
+
+    background: linear-gradient(
+        135deg,
+        #071b3a,
+        #0d6efd
+    );
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: yellow;
+}
+
+.product-photo i {
+    font-size: 70px;
+}
+
+.price {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.training-bg {
+    background-image: url("training-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.website-bg {
+    background-image: url("website-bg.png");
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project-bg {
+    background-image: url("project-bg.png");
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  .price-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    margin-bottom: 6px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.price-option strong {
+    font-weight: 700;
+}
+  }
+
+.liquid-soap {
+    background-image: url("liquid-soap.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}
+
+.cosmetology-bg {
+    background-image: url("cosmetology-bg.png") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.digital-solution1 {
+    background-image: url("digital-solution1.png") !important;
+    background-size: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+}

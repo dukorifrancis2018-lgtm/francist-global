@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://francistglobal.netlify.app/sitemap.xml
